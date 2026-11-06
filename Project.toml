@@ -1,0 +1,24 @@
+name = "PnormIPM"
+uuid = "52cffdff-a406-40d8-98b3-ccf2a9ea07e8"
+authors = ["Marco Pirazzini <marco.pirazzini@yale.edu>"]
+version = "0.1.0"
+
+[deps]
+Laplacians = "6f8e5838-0efe-5de0-80a3-5fb4f8dbb1de"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[compat]
+Laplacians = "1.4"
+julia = "1.10"
+
+[extras]
+Clarabel = "61c947e1-3e6d-4ee4-985a-eec8c727bd6e"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "ForwardDiff", "JuMP", "Clarabel", "Random"]

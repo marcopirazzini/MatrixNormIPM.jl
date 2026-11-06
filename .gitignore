@@ -1,0 +1,15 @@
+# Experiment outputs
+results/
+bench/
+*.csv
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Claude
+.claude/
+CLAUDE.md
