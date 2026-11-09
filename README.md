@@ -1,8 +1,18 @@
 # An Interior Point Method for computing the $p \to q$ norm of a non-negative matrix
 
-This repository contains code to efficiently compute the $p \to q$ norm of a non-negative matrix $A$, when $p \ge q$.
+This repository contains code to efficiently compute the $p \to q$ norm of a non-negative matrix $A$, when $p \ge q$, which is based on the following [paper](https://arxiv.org/abs/2611.09601):
 
-This is based on this paper: [https://arxiv.org/abs/2611.09601](https://arxiv.org/abs/2611.09601)
+```bibtex
+@misc{pirazzini2026matrixnormipm,
+      title={A Fast and Accurate Algorithm for the $p \to q$ Norm of Sparse Non-Negative Matrices}, 
+      author={Marco Pirazzini and Daniel A. Spielman},
+      year={2026},
+      eprint={2611.09601},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS},
+      url={https://arxiv.org/abs/2611.09601},
+}
+```
 
 ## Installation
 
