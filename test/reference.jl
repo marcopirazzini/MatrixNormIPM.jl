@@ -1,8 +1,8 @@
 # Reference implementations used by the tests and diagnostics (not part of the package).
 
-using PnormIPM, SparseArrays, LinearAlgebra, Random
+using MatrixNormIPM, SparseArrays, LinearAlgebra, Random
 using JuMP
-using PnormIPM: Problem, State
+using MatrixNormIPM: Problem, State
 
 """γ = ρ - σ at x, in precision T."""
 gamma_of(P::Problem, x::State, ::Type{T}) where {T} =

@@ -3,7 +3,7 @@ Interior point method for the p → q norm of sparse non-negative matrices (Pira
 Spielman). Each Newton step reduces to one SDD (Laplacian) system plus two simplex
 constraints. Entry point: [`pqnorm`](@ref).
 """
-module PnormIPM
+module MatrixNormIPM
 
 using LinearAlgebra
 using SparseArrays

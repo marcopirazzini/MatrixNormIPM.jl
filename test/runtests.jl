@@ -1,12 +1,12 @@
 using Test, Random, SparseArrays, LinearAlgebra
 using ForwardDiff, Clarabel
 include("reference.jl")
-using PnormIPM: EdgeWork, edge_terms!, gradient!, HessData, hessian_parts!, NewtonSystem,
+using MatrixNormIPM: EdgeWork, edge_terms!, gradient!, HessData, hessian_parts!, NewtonSystem,
                 assemble!, newton_solve, decrement2, upper_bound, lower_bound, analytic_center
 
 const TOL = 1e-8
 
-@testset "PnormIPM" begin
+@testset "MatrixNormIPM" begin
 
 @testset "barrier derivatives vs ForwardDiff (p=$p, q=$q)" for (p, q) in [(3.0, 2.0), (2.0, 2.0), (4.0, 1.5)]
     rng = MersenneTwister(1)

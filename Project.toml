@@ -1,4 +1,4 @@
-name = "PnormIPM"
+name = "MatrixNormIPM"
 uuid = "52cffdff-a406-40d8-98b3-ccf2a9ea07e8"
 authors = ["Marco Pirazzini <marco.pirazzini@yale.edu>"]
 version = "0.1.0"
